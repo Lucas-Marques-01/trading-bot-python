@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Logs
+log.txt
+logs/
+*.log
+
+# Banco SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Variáveis de ambiente
+.env
