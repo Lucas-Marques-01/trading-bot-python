@@ -72,31 +72,10 @@ Standard library modules:
 - `os`
 - `time`
 
-### Installation
-
-Create and activate a virtual environment, then install the dependencies (after you create a `requirements.txt`):
-
-python -m venv .venv
-
-Windows
-.venv\Scripts\activate
-
-Linux / macOS
-source .venv/bin/activate
-
-pip install -r requirements.txt
-
-To generate `requirements.txt` from your current environment:
-
-pip freeze > requirements.txt
-
-text
-
----
 
 ## Environment variables
 
-Create a `.env` file in the project root (this file is ignored by Git) with values similar to:
+Create a `.env` file in the project root with values similar to:
 
 DISCORD_TOKEN_CONSERVADOR=your_conservative_bot_token_here
 DISCORD_CHANNEL_ID_CONSERVADOR=123456789012345678
